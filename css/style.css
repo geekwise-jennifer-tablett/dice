@@ -126,7 +126,8 @@ span:nth-child(3){
     float:right;
     position:relative;
     transform:translateY(-33px);
-    transform:transitionX(10px)
+    display: block;
+    right:12px;
 }
 #center{
     clear:both;
@@ -150,8 +151,8 @@ span:nth-child(3){
     position:relative;
     transform:translateY(-20px);  
 }
+
 #five_br{
-    clear:both;
     margin:10px;
     padding:0;
     height:20px;
@@ -159,10 +160,11 @@ span:nth-child(3){
     font-size:23px;
     float:right;
     position:relative;
-    transform:translateY(-60px); 
+    transform:translateY(-20px); 
 }
 /*dice_six*/
 .dice > ul{
+    clear: both;
     margin:0;
     padding:0;
     height:100%;
@@ -171,11 +173,12 @@ span:nth-child(3){
     font-size:50px;
 }
 .dice > ul > li{
-    margin:10px;
+    margin:  10px 18px;
     padding:0;
     height:10px;
     width:10px;
     font-size:25px;
+    display:block;
     list-style:none;
     float:left;
 }
