@@ -24,11 +24,27 @@ ul{
     display:inline-block;
     background-color:blue;
 }
-#dot_center{
-    margin: 0 auto;
-    height:2rem;
-    width:2rem;
+.dot_tl{
+    margin:0;
+    float:left;
     position:relative;
+    font-size:20px;
+}
+.dot_center{
+    margin: 0 auto;
+    display:block;
+    position:relative;
+    transform:translateY(40px);
+    font-size:20px;
+    text-align:center;
+  }
+.dot_br{
+    clear:both;
+    margin:0;
+    display:block;
     
-    background-color:orange;
+    position:fixed;
+    transform:translateY(70px);
+    font-size:20px; 
+    
 }
