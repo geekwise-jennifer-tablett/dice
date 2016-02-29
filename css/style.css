@@ -1,0 +1,23 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+}
+
+.dice{
+    margin-top:3rem;
+    height:10rem;
+    width:10rem;
+    border:0.5rem solid black;
+}
+
+#one{
+    margin:0 auto;
+    padding:0;
+    height:10rem;
+    width:10rem;
+    border-radius:20rem;
+    position:relative;
+    transform:translateY(-50);
+}
+
