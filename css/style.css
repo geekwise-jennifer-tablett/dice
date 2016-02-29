@@ -10,14 +10,69 @@ html,body{
     width:10rem;
     border:0.5rem solid black;
 }
-
-#one{
+/*dice_one*/
+.dice > #one{
+    clear:both;
     margin:0 auto;
     padding:0;
-    height:10rem;
-    width:10rem;
-    border-radius:20rem;
+    height:20px;
+    width:20px;
+    border-radius:50rem;
     position:relative;
     transform:translateY(-50);
+    background-color:black;
 }
 
+/*dice_two*/
+#top_left{
+    clear:both;
+    margin:10px;
+    padding:0;
+    height:20px;
+    width:20px;
+    border-radius:50rem;
+    float:left;
+    background-color:black;
+}
+#bottom_right{
+    clear:both;
+    margin:10px;
+    padding:0;
+    height:20px;
+    width:20px;
+    border-radius:50rem;
+    float:right;
+    position:relative;
+    transform:translateY(20px);
+    background-color:black;
+}
+
+/*dice_three*/
+.dice > span{
+    margin: 0 auto;
+    padding:0;
+    font-size:25px;
+    
+/*dice_four*/
+
+/*dice_five*/
+/*dice_six*/
+.dice > ul{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    display:block;
+    font-size:50px;
+    background-color:red;
+}
+.dice > ul > li{
+    margin:5px;
+    padding:0;
+    height:10px;
+    width:10px;
+    float:left;
+    
+    
+    
+}
