@@ -12,14 +12,13 @@ html,body{
 }
 /*dice_one*/
 .dice > #one{
-    clear:both;
     margin:0 auto;
     padding:0;
     height:20px;
     width:20px;
     border-radius:50rem;
     position:relative;
-    transform:translateY(-50);
+    transform:translateY(40px);
     background-color:black;
 }
 
@@ -48,13 +47,72 @@ html,body{
 }
 
 /*dice_three*/
-.dice > span{
-    margin: 0 auto;
-    padding:0;
-    font-size:25px;
-    
-/*dice_four*/
 
+span{
+    clear:both;
+    margin:10px;
+    padding:0;
+    height:20px;
+    width:20px;
+    font-size:20px;
+    border-radius:50rem;
+    float:left;
+}
+
+s:nth-child(2){
+    
+   
+}
+s:nth-child(3){
+    clear:both
+    float:right;
+}
+/*dice_four*/
+#t_left{
+    clear:both;
+    margin:10px;
+    padding:0;
+    height:20px;
+    width:20px;
+    font-size:23px;
+    float:left;
+    
+    
+}
+#t_right{
+    clear:both;
+    margin:10px;
+    padding:0;
+    height:20px;
+    width:20px;
+    font-size:23px;
+    float:right;
+    position:relative;
+    transform:translateY(-39px);
+}
+#b_left{
+  
+    margin:10px;
+    padding:0;
+    height:20px;
+    width:20px;
+    font-size:23px;
+    float:left;
+    position:relative;
+    transform:translateY(20px);
+    
+}
+#b_right{
+    margin:10px;
+    padding:0;
+    height:20px;
+    width:20px;
+    font-size:23px;
+    float:right;
+    position:relative;
+    transform:translateY(-20px);
+}
+}
 /*dice_five*/
 /*dice_six*/
 .dice > ul{
