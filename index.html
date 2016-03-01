@@ -6,84 +6,28 @@
       <link  rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/> 
     </head>
     <body>
-      <main>
-       <ul>
-          <!--die_one-->
-           <li class="dice">
-                <div id="dot_center">
-                    <i class="fa fa-cog fa-spin">
-                    </i>
-                </div>
-               
-           </li>
-            <!--die_two-->
-           <li class="dice">
-               <div id="dot_tl">
-               <i class="fa fa-cog fa-spin">
-               </i>
-               </div>
-               <div id="dot_br">
-               <i class="fa fa-cog fa-spin">
-               </i>
-               </div>
-           </li>
-          <!--die_three-->
-           <li class="dice">
-               <div id="dot_tl">
-               <i class="fa fa-cog fa-spin">
-               </i>
-               </div>
-                <div id="dot_three_center">
-                   <i class="fa fa-cog fa-spin">
-               </i> 
-                </div>
-               <div id="dot_three_br">
-               <i class="fa fa-cog fa-spin">
-               </i>
-               </div>
-           </li>
-           <!--die_four-->
-          <li class="dice">
-            <section id="die_four">
-                <div>
-                   <i class="fa fa-cog fa-spin">
-                   </i>
-               </div>
-               <div >
-                   <i class="fa fa-cog fa-spin">
-               </i>
-               </div> 
-               <div>
-                   <i class="fa fa-cog fa-spin">
-               </i>
-               </div>
-               <div>
-                   <i class="fa fa-cog fa-spin">
-               </i>
-               </div>
-                 </section>
-           </li>
-            <!--die_five-->
-           <li class="dice">
-               <div class="dot_tl"></div>
-               <div></div>
-                <div class="dot_center">
-                    <i class="fa fa-cog fa-spin"></i>
-                </div>
-               <div></div>
-               <div></div>
-           </li>
-            <!--die_six-->
-           <li class="dice">
-               <div class="dot_tl"></div>
-               <div></div>
-               <div></div>
-               <div></div>
-               <div></div>
-               <div></div>
-           </li> 
-           
-       </ul>
-       </main>
+      <div class="dice center padding">
+         <!--die_one-->
+          <span class="dot center middle ">
+              
+          </span>
+      </div>
+      <!--die_two-->
+      <div class="dice center padding">
+          <span class="dot top left die_face padding">
+          </span>
+          <span class="dot bottom die_face right">
+          </span>
+      </div>
+      <!--die_three-->
+      <div class="dice center padding">
+          <span class="dot top left die_face padding">
+          </span>
+          <span class="dot center middle ">
+          </span>
+         <span class="dot bottom die_face right" id="die_3dot">
+          </span>
+          
+      </div>
     </body>
 </html>
