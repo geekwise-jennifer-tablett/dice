@@ -78,23 +78,32 @@ body{
 }
 
 @media only screen and (max-width:330px){
-    div{
+    .dice{
+        display:inline-block;
+        
+    }
+     div{
         animation: blink 20s linear infinite;
   -webkit-animation: blink 20s linear infinite;
     }
     @-webkit-keyframes blink {
   0% {
-      background: violet;}
+      background: #b4d1df;}
         25%{
-            background:yellow;
+            background:#82a4b4;
         }
         50%{
-            background:blue;
+            background:#3cbaa4;
         }
         75%{
-            background:orange;
+            background:#3cba51;
         }
         100%{
-            background:green;
+            background:#07b224;
         }
+        
 }
+   
+        
+        
+     
