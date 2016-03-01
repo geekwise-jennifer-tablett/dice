@@ -66,3 +66,16 @@ body{
     float:right;
 }
 
+#die_3dot{
+    position:relative;
+    transform:translateY(-2rem);
+}
+#die_4dotl{
+    position:relative;
+    left:-2.3rem;
+}
+
+#die_4dotr{
+    position:relative;
+    top:4rem;
+}
