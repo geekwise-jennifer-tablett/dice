@@ -5,3 +5,64 @@ html,body{
     width:100%;
     font-size:62.5%;
 }
+body{
+    height:100%;
+    width:100%;
+}
+.dice{
+    display:block;
+    height:10rem;
+    width:10rem;
+    box-sizing:border-box;
+    border:solid .5rem #332c2c;
+    border-radius:.5rem;
+}
+
+.center{
+    margin:0 auto;
+    text-align:center;
+}
+
+.padding{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+.dot{
+   display:block;
+   height:2rem;
+   width:2rem; 
+   border:solid .2rem #bd5252;
+   border-radius:2rem;
+   background-color:#200b0b;
+}
+
+.middle{
+    position:relative;
+    transform:translateY(3.5rem);
+    box-sizing:border-box;
+}
+
+.top{
+   position:relative;
+   top:0%;
+}
+
+.left{
+   float:left; 
+}
+
+.die_face{
+    box-sizing:border-box;
+    margin:.2rem;
+}
+
+.bottom{
+    position:relative;
+    top:72%;
+}
+
+.right{
+    float:right;
+}
+
