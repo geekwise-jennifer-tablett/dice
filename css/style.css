@@ -24,27 +24,52 @@ ul{
     display:inline-block;
     background-color:blue;
 }
-.dot_tl{
+
+#dot_center{
     margin:0;
-    float:left;
-    position:relative;
-    font-size:20px;
-}
-.dot_center{
-    margin: 0 auto;
     display:block;
+    height:2rem;
+    height:2rem;
     position:relative;
     transform:translateY(40px);
-    font-size:20px;
+    font-size:2rem;
     text-align:center;
+    
+  
   }
-.dot_br{
-    clear:both;
+#dot_tl{
     margin:0;
-    display:block;
-    
-    position:fixed;
-    transform:translateY(70px);
-    font-size:20px; 
-    
+    padding:10px;
+    display:inline;
+    float:left;
+    position:relative;
+    font-size:2rem;
+}
+#dot_br{
+    margin:0;
+    padding:10px;
+    display:inline;
+    float:right;
+    position:relative;
+    transform:translateY(60px);
+    top:2px;
+    font-size:2rem;
+}
+
+#dot_three_center{
+    clear:both;
+    font-size:2rem;
+    height:2rem
+    width:2rem;
+    transform:translateX(39px);
+}
+#dot_three_br{
+     margin:0;
+    padding:10px;
+    display:inline;
+    float:right;
+    position:relative;
+    transform:translateY(-10px);
+    top:2px;
+    font-size:2rem;
 }
