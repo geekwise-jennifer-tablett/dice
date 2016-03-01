@@ -18,7 +18,7 @@ ul{
 .dice{
     margin:0 auto;
     padding:0;
-    border-radius:20px;
+    border-radius:2rem;
     height:10rem;
     width:10rem;
     display:inline-block;
@@ -73,3 +73,15 @@ ul{
     top:2px;
     font-size:2rem;
 }
+#die_four{
+    font-size:2rem;
+    display:inline;
+}
+#die_four > div{
+    margin:0 auto;
+    text-align:center;
+    float:left;
+    height:4rem;
+    width:5rem;
+}
+    
